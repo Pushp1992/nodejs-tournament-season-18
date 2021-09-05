@@ -1,0 +1,72 @@
+{
+    "statusmessage": "Successful",
+    "statusCode": 1,
+    "data": {
+        "trainlist": [
+            {
+                "id": 1,
+                "name": "shatabdi express",
+                "code": "12560",
+                "source": "Bangalore",
+                "destination": "Delhi",
+                "pantryCar": "yes",
+                "runningStatus": {
+                    "weekly": "no",
+                    "daily": "yes"
+                },
+                "seatAvailability": [
+                    {
+                        "class": "sleeper",
+                        "fare": "INR 650",
+                        "total": "120",
+                        "available": "15"
+                    },
+                    {
+                        "class": "2-tier",
+                        "fare": "INR 850",
+                        "total": "60",
+                        "available": "10"
+                    },
+                    {
+                        "class": "3-tier",
+                        "fare": "INR 1250",
+                        "total": "30",
+                        "available": "00"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "karnatka express",
+                "code": "12565",
+                "source": "Bangalore",
+                "destination": "Mumbai",
+                "pantryCar": "no",
+                "runningStatus": {
+                    "weekly": "no",
+                    "daily": "yes"
+                },
+                "seatAvailability": [
+                    {
+                        "class": "sleeper",
+                        "fare": "INR 850",
+                        "total": "120",
+                        "available": "15"
+                    },
+                    {
+                        "class": "2-tier",
+                        "fare": "INR 1250",
+                        "total": "60",
+                        "available": "00"
+                    },
+                    {
+                        "class": "3-tier",
+                        "fare": "INR 1850",
+                        "total": "30",
+                        "available": "05"
+                    }
+                ]
+            }
+        ]
+    }
+}
